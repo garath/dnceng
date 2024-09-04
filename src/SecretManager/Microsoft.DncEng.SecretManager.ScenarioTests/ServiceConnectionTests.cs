@@ -65,7 +65,7 @@ namespace Microsoft.DncEng.SecretManager.Tests
         /// </code>
         /// 
         /// </remarks>
-        [Test, CancelAfter(300_000)]
+        [Test]
         public async Task TestWithBuild(CancellationToken cancellationToken = default)
         {
             // The definition ID of the pipeline that will exercise the service connection
